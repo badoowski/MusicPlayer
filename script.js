@@ -15,21 +15,6 @@ const container = document.querySelector('#background')
         songIndex = 0
         const song = [
             {
-                name: 'brymo-2',
-                displayName: 'Adèdótun',
-                artist: 'Brymo',
-            },
-            {
-                name: 'brymo-1',
-                displayName: `Nothing's Ever Promised Tomorrow`,
-                artist: 'Brymo',
-            },
-            {
-                name: 'brymo-3',
-                displayName: 'Heartbreak Songs Are Better Than English',
-                artist: 'Brymo',
-            },
-            {
                 name: 'jacinto-1',
                 displayName: 'Reggae Fusion',
                 artist: 'Jacinto Design',
