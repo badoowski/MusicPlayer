@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <img src="./assests/icons/music-icon.jpg" alt="" id="background">
+    <div class="container">
+        <div class="player-container">
+            <img src="./assests/icons/music-icon.jpg" id="thumbnail">
+            <audio src="./assests/music/Brymo-2.mp3" preload="metadata"></audio>
+            <h3 id="now-playing"></h3>
+
+            <div class="title">
+                <h2 id="artist">Artist</h2>
+                <h3 id="song-title">Title</h3>
+            </div>
+            <div class="progress-container">
+                <div class="currentTime"></div>
+
+                <input type="range" id="progress-bar" min="0" max="" value="0" />
+
+                <div class="durationTime"></div>
+            </div>
+            <div class="btn-container">
+                <img src="./assests/icons/backward.png" id="backward" title="backward">
+                <img src="./assests/icons/play.png" id="play" title="play">
+                <img src="./assests/icons/forward.png" id="forward" title="forward">
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
